@@ -3,7 +3,7 @@ import './App.css';
 import ReactGA from 'react-ga';
 import { useEffect } from 'react';
 
-const TrackingID = '';
+const TrackingID = 'G-91V1ZPK7W9';
 ReactGA.initialize(TrackingID);
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Google analytics <code>src/App.js</code> and save to reload.
+          Google analytics <code>src/App.js</code> added tracking ID for google analytics.
         </p>
         <a
           className="App-link"
