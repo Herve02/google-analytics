@@ -5,10 +5,11 @@ import { useEffect } from 'react';
 
 const TrackingID = '';
 ReactGA.initialize(TrackingID);
-useEffect(() => {
-  ReactGA.pageview(window.location.pathname);
-}, []);
+
 function App() {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
   return (
     <div className="App">
       <header className="App-header">
